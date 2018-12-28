@@ -3,7 +3,7 @@ package prob3;
 public class Prob3 {
 
 	public static void main(String[] args) {
-		CurrencyConverter.setRate( 1118.70 );
+		CurrencyConverter.setRate( 1197.0 );
 		
 		double dollar = CurrencyConverter.toDollar( 1000000 );
 		System.out.println( "백만원은 " + dollar + "달러입니다." );
